@@ -1,0 +1,11 @@
+.InputProfile {
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+}
+
+.InputProfile[placeholer] {
+  color: #000;
+}

@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "jwtSecret": "mark learn mern",
+  "mongoUrl":"mongodb+srv://vitality:1254pp1254@cluster0.1opah.mongodb.net/app?retryWrites=true&w=majority"
+}

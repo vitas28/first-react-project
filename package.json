@@ -1,0 +1,33 @@
+{
+  "name": "mymern",
+  "version": "1.0.0",
+  "description": "Mern stack by myself",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix mern",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "mern",
+    "me",
+    "stack"
+  ],
+  "author": "Vitaliy <vitaliydubanovsky@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.4.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "node-sass": "^6.0.1",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}

@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eadac6;
+}
+
+.auth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 2px #333;
+}
+
+.auth-form {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px auto;
+  width: 75%;
+}
+
+.form-header {
+  margin-bottom: 20px;
+}
+
+.auth-nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s linear;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.profile-header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+nav {
+  background: blueviolet;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+nav h1 {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.links {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.links-item {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 24px 0;
+  transition: all 0.2s linear;
+}
+
+.links-item:hover {
+  background-color: #2727e7;
+}
+
+.info-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.about {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  font-size: 25px;
+}
+
+.info-text {
+  font-size: 25px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.table {
+}
+
+.table-header {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.table-wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.table-wrapper:hover {
+  background-color: #b993e7;
+  border-radius: 15px;
+}
+
+.table-wrapper span {
+  padding: 15px;
+}
+
+.buttons {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
